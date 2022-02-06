@@ -1,4 +1,82 @@
 body{
-    background-color: papayawhip;
+  font-family: 'Kanit', sans-serif;
+  font-size: 100px;
   height: 100%;
+  color: white;
+  display: flex;
+justify-content: center;
+align-items: center;
 }
+
+div.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 90%;
+}
+
+header {
+    height: 450px;
+    width: 850px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(Milky-way-NasaProject.jpg);
+}
+main {
+    height: 324px;
+    width: 850px;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+section {
+    display:flex;
+}
+
+div.mini-container1 {
+    height: 324px;
+    width: 270px;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 20px;
+}
+
+div.mini-container2 {
+    height: 324px;
+    width: 270px;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 20px;
+}
+
+div.mini-container3 {
+    height: 324px;
+    width: 270px;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 20px;
+}
+
+h2 {
+    font-size: 20px;
+    color:black;
+}
+li {
+    font-size: 12px;
+    display: flex;
+    flex-direction: flex-start;
+    font-family: 'Oooh Baby', cursive;
+    padding-bottom: 4px;
+}
+input {
+    display: flex;
+}
+a {
+    display: flex;
+    font-size: 12px;
+    padding-bottom: 4px;
+}
+
